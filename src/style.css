@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    display: flex;
+    background: whitesmoke;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    background: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.title {
+    margin: 20px 0 0 0;
+}
+
+#excusa {
+    font-size: 30px;
+}
+
+div {
+    margin: 15px;
+}
